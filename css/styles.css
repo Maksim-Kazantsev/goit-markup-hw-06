@@ -772,7 +772,15 @@ ul {
 
 }
 
-.form-text {}
+.form-text {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1, 15;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
 
 .form-modal {}
 
@@ -811,4 +819,12 @@ ul {
     left: 12px;
     transform: translateY(50%);
     fill: #212121;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-title {
+    font-size: 12px;
+    line-height: 1, 17;
+    letter-spacing: 0.01em;
+    color: var(--primary-text-color)
 }
